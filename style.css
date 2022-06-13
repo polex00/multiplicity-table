@@ -1,0 +1,84 @@
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+}
+
+#container {
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+}
+
+#layer {
+    border-radius: 10px;
+    position: absolute;
+    padding: 50px 10px 50px 10px;
+    background-color: rgb(28, 179, 179);
+    margin: auto;
+    display: table;
+    align-items: center;
+    z-index: 100;
+    width: auto;
+    min-height: 100px;
+    left: calc((100% - 730px)/2);
+    top: 30%;
+}
+
+#table {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#close {
+    display: table-cell;
+    padding:2px 5px;
+    background:#ccc;
+}
+
+.row {
+    width: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.col {
+    max-width: 60px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    white-space: nowrap;
+}
+
+.class-x {
+    margin: auto;
+    width: fit-content;
+}
+.class-y {
+    margin: auto;
+    width: fit-content;
+}
+
+#button, #parag {
+    margin: auto;
+    width: fit-content;
+}
+
+#parag {
+    font-size: larger;
+    margin-top: 20%;
+    text-shadow: 1px 1px #000;
+    font-weight: bolder;
+    color: white;
+}
+
+label {
+    text-shadow: 2px 2px #000;
+    font-weight: bolder;
+    color: white;
+}
+
+#link {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+}
